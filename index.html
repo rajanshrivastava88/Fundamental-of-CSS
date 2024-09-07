@@ -344,9 +344,8 @@ Example:
 - Pseudo-classes: Target elements in a specific state (e.g., :hover, :focus, :nth-child).
 - Pseudo-elements: Target a specific part of an element (e.g., ::before, ::after).
 
-**Example:**
+Example:
 
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -357,9 +356,7 @@ Example:
 
         p::before {
             content: "Note: ";
-           
-
- color: blue;
+            color: blue;
         }
     </style>
 </head>
@@ -370,13 +367,15 @@ Example:
 </html>
 ```
 
-### 11. **Specificity and Inheritance**
+11. Specificity and Inheritance
 
-Specificity determines which CSS rule is applied when multiple rules target the same element. Inline styles have the highest specificity, followed by IDs, classes, and elements. Inheritance allows some properties (e.g., `color`, `font-size`) to be inherited from parent elements.
+Specificity determines which CSS rule is applied when multiple rules target the same element. 
 
-**Example:**
+Inline styles have the highest specificity, followed by IDs, classes, and elements. Inheritance allows 
+some properties (e.g., `color`, `font-size`) to be inherited from parent elements.
 
-```html
+Example:
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
